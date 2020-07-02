@@ -1,20 +1,19 @@
-# 小程序中将less编译成wxss
+# 支付宝小程序中将 less 编译成 acss
 
-## 安装
+## Install
 
-```console
-$ npm install -g wxss-cli
 ```
-## 使用
+$ npm install -g acss-cli
+
+# or
+
+$ yarn add global acss-cli
+```
+
+## Useage
 
 > minicode 为小程序开发根目录
 
 ```
-$ wxss ./minicode
+$ acss-cli minicode
 ```
-
-### 如果觉得不错，请动动您的小拇指，star一下
-
-## License
-
-MIT

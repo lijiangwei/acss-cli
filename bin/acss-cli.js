@@ -16,7 +16,7 @@ program
     fs.stat(dir, (err, stats) => {
       if (err) console.log(chalk.yellow(err))
       else {
-        console.log(chalk.bgMagenta.white(' wxss is running... '))
+        console.log(chalk.bgMagenta.white(' acss-cli is running... '))
         watch(dir)
       }
     })
@@ -24,8 +24,7 @@ program
 
 program
   .on('--help', () => {
-    console.log()
-    console.log(`  Run ${chalk.cyan(`wxss <command> --help`)} for detailed usage of given command.`)
+    console.log(`  Run ${chalk.cyan(`acss-cli <command> --help`)} for detailed usage of given command.`)
     console.log()
   })
 
